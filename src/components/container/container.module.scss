@@ -1,0 +1,22 @@
+@import 'styles/_breakpoints.scss';
+
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 0px 60px;
+
+  @media (max-width: $lg) {
+    padding: 0px 120px;
+    max-width: 900px;
+  }
+  @media (max-width: $md) {
+    padding: 0px 80px;
+    max-width: 1450px;
+  }
+  @media (max-width: $sm) {
+    padding: 0px 60px;
+  }
+  @media (max-width: $xxs) {
+    padding: 0px 30px;
+  }
+}
