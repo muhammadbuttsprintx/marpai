@@ -1,11 +1,11 @@
-import Loading from 'components/loading';
+import Input from 'components/input';
 import React from 'react';
 import Routes from 'routes';
 
 const App = () => {
   return (
     <div>
-      <Loading />
+      <Input />
       <Routes />
     </div>
   );
